@@ -1,0 +1,99 @@
+.footer {
+  background-image: url(../images/footerBg.png);
+  background-color: var(--background-color);
+  background-repeat: no-repeat;
+}
+
+.footer__container {
+  padding: 160px 80px 128px 80px;
+}
+
+.footer__tittle {
+  margin-bottom: 86px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid var(--primary-text-color);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--primary-text-color);
+}
+
+.footer__address-list {
+  margin-bottom: 103px;
+  display: flex;
+  column-gap: 48px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__address-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 64px;
+}
+
+.footer__address-icon-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-text-color);
+  transition: color 250ms var(--main-timing-function);
+  cursor: pointer;
+}
+
+.footer__address-icon-link:hover,
+.footer__address-icon-link:focus {
+  color: var(--accent-color);
+}
+
+.footer__address-locationCity {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--primary-text-color);
+}
+
+.footer__address-telephone {
+  display: block;
+  margin-bottom: 32px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+  transition: color 250ms var(--main-timing-function);
+}
+
+.footer__address-telephone:hover,
+.footer__address-telephone:focus {
+  color: var(--accent-color);
+}
+
+.footer__address-location {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+
+.footer__rights {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.83;
+  color: var(--secondary-text-color);
+}

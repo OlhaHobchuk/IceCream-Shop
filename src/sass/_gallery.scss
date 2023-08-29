@@ -1,0 +1,39 @@
+.gallery-section {
+  padding: 135px 75px 140px 75px;
+  background-color: var(--primary-text-color);
+}
+
+.gallery-section__tittle {
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 112px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--benefits-background-color);
+}
+
+.gallery-section__description {
+  margin-bottom: 79px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--benefits-background-color);
+}
+
+.gallery-section__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 31px;
+}
+
+.gallery-section__item {
+  width: 395px;
+  height: 395px;
+  overflow: hidden;
+}
